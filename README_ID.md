@@ -18,6 +18,7 @@ dependencies:
 ```
 1. git clone https://github.com/yogiektambakboyo/purnomo-yogi-techtask-mobile.git
 2. Download Flutter SDK
+3. Tambahakan Environment Variable PATH Flutter SDK Folder dan Android SDK
 3. Buka Android Studio, setting Flutter SDK dan Android SDK
 4. Install Plug-in Flutter dan Plugin Dart
 5. Buka File Project
