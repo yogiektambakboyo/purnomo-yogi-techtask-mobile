@@ -11,10 +11,13 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:tech_task/screens/screenIngredients.dart';
 
 void main() {
-  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
-    await tester.pumpWidget(screenIngredients());
+  group("Widget Test",(){
+    testWidgets('Test 01 - Exist Button', (WidgetTester tester) async {
+      await tester.pumpWidget(screenIngredients());
 
-    expect(find.text("Get Recipes ( 0 )"), findsWidgets);
-    expect(find.text("Get Recipes ( 1 )"), findsOneWidget);
+      var raisedButton = find.byType(RaisedButton);
+      expect(raisedButton, findsWidgets);
+
+    });
   });
 }

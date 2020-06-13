@@ -38,3 +38,10 @@ dependencies:
 2. Pilih Ingredients 
 3. Klik Button Get Receipt for untuk Suggest Receipt pilihan bumbu terpilih 
 ```
+
+# Testing
+```
+1. Buka Menu Terminal di Android Studio
+2. Jalankan perintah "flutter test test/api_test.dart" untuk testing api
+3. Jalankan perintah "flutter test test/widget_test.dart" untuk testing widget 
+```

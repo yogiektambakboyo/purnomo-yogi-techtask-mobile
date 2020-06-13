@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tech_task/config/config_value.dart';
+import 'package:tech_task/config/configValue.dart';
 import 'package:tech_task/screens/screenIngredients.dart';
 import 'package:tech_task/screens/screenRecipes.dart';
 

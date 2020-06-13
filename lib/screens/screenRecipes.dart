@@ -4,7 +4,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:intl/intl.dart';
 import 'package:tech_task/api/futureApi.dart';
-import 'package:tech_task/config/config_value.dart';
+import 'package:tech_task/config/configValue.dart';
 import 'package:tech_task/models/modelRecipes.dart';
 import 'package:tech_task/screens/screenIngredients.dart';
 

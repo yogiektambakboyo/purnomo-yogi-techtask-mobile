@@ -38,3 +38,10 @@ dependencies:
 2. Choice Ingredients 
 3. Click Button Get Receipt for get Suggest Receipt from selected Ingredients 
 ```
+
+# Testing
+```
+1. Open Terminal at Android Studio
+2. execute command "flutter test test/api_test.dart" for testing api
+3. execute command "flutter test test/widget_test.dart" for testing widget 
+```

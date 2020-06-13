@@ -1,7 +1,7 @@
 
 import 'dart:convert';
 
-import 'package:tech_task/config/config_value.dart';
+import 'package:tech_task/config/configValue.dart';
 import 'package:tech_task/models/modelIngredients.dart';
 import 'package:tech_task/models/modelRecipes.dart';
 import 'package:http/http.dart' as http;
